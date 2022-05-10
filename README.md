@@ -1,8 +1,6 @@
 
 # Patient Data C++ Application
 
-I created this program in Xcode version 13.3.1.
-
 This program takes a list of patient data and uses function calls to manipulate the data.  
 
 While parsing the data list, the program creates patient objects.  
@@ -26,6 +24,7 @@ A number of functions have been declared to manipulate the data:
  
   f.  public void printByHospitalDepartment() that prints out patient information that specifies which hospital department the patient is staying in.
   
+  I created this program in Xcode version 13.3.1.
  
 
 
