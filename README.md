@@ -1,31 +1,41 @@
 
 # Patient Data C++ Application
 
-This program takes a list of patient data and uses function calls to manipulate the data.  
+This program takes a list of patient data and uses function calls to manipulate the data.
 
-While parsing the data list, the program creates patient objects.  
+<div style="text-align: center;">
+  <img  src="https://github.com/NikkaLuna/Patient-Data-Application/assets/94496219/4dd349fe-e4b3-4e11-a7d3-c8ddec1da3ba" alt="Image">
+</div>
 
-Accessor functions access the member variables of the Patient class.  Mutator functions are used to control changes to the variables.
+
+# Patient Data Management System
+
+
+While parsing the data list, the program creates patient objects.
+
+Accessor functions access the member variables of the Patient class. Mutator functions are used to control changes to the variables.
 
 The entire patient list is stored in one array of patients called PatientRosterArray.
 
 This program defines an enumerated data type 'Hospitaldepartment' containing the data type values NEUROLOGY, ONCOLOGY, and CARDIOLOGY.
 
-A number of functions have been declared to manipulate the data:  
+## Functions
 
+- `remove()`: Removes patients from the roster by patient ID. If the patient ID does not exist, the function prints an error message indicating that the patient was not found.
 
-  a.  public void remove() that removes patients from the roster by patient ID. If the patient ID does not exist, the function prints an error message indicating that the patient was not found.
+- `printAll()`: Prints a complete tab-separated list of patient data. The `printAll()` function loops through all the patients in PatientRosterArray and calls the `print()` function for each patient.
 
-  b. public void printAll() that prints a complete tab-separated list of patient data. The printAll() function should loop through all the patients in PatientRosterArray and call the print() function for each patient.
+- `printAverageDaysInHospital()`: Prints the average number of days a patient has stayed in the hospital, with three individual stays to derive an average from.
 
-  d.  public void printAverageDaysInHospital()  that prints the average number of days a patient has stayed in the hospital, with three individual stays to derive an average from.
+- `printInvalidEmails()`: Verifies patient email addresses and displays all invalid email addresses to the user.
 
-  e.  public void printInvalidEmails() that verifies patient email addresses and displays all invalid email addresses to the user.
- 
-  f.  public void printByHospitalDepartment() that prints out patient information that specifies which hospital department the patient is staying in.
+- `printByHospitalDepartment()`: Prints out patient information that specifies which hospital department the patient is staying in.
+
+## Environment
+
+This program was created in Xcode version 13.3.1.
+
   
-  I created this program in Xcode version 13.3.1.
- 
 
 
 
